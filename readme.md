@@ -12,11 +12,11 @@ double pobierz(char* tekst)
 }
 ```
 
-2. Program oparty jest na konstrukcji if(){...}else{...}
+2. Program oparty jest na konstrukcji `if(){...}else{...}`
 
 3. Obliczanie oparte jest na zmiennych zmiennoprzecinkowych podwójnej precyzji (double)
 
-4. Kompilacja programu wymaga "linkowania" biblioteki matematycznej (-lm) (użycie w programie funkcji obliczania pierwiastka kwadratowego - sqrt)
+4. Kompilacja programu wymaga "linkowania" biblioteki matematycznej (`-lm`) (wymagane przez użycie w programie funkcji obliczania pierwiastka kwadratowego - `sqrt()`)
 
 ```sh
 $ gcc kwadratowe.c -o kwadratowe.out -lm
