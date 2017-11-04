@@ -1,6 +1,6 @@
 # Program do obliczania pierwiastków równania kwadratowego
 
-1. Program za pomocą funkcji scanf() pobiera z konsoli wartości a,b,c
+1. Program za pomocą funkcji pobiera z konsoli wartości a,b,c (wykorzystując `scanf`)
 
 ```c
 double pobierz(char* tekst)
@@ -14,7 +14,7 @@ double pobierz(char* tekst)
 
 2. Program oparty jest na konstrukcji `if(){...}else{...}`
 
-3. Obliczanie oparte jest na zmiennych zmiennoprzecinkowych podwójnej precyzji (double)
+3. Obliczanie oparte jest na zmiennych zmiennoprzecinkowych podwójnej precyzji (`double`)
 
 4. Kompilacja programu wymaga "linkowania" biblioteki matematycznej (`-lm`) (wymagane przez użycie w programie funkcji obliczania pierwiastka kwadratowego - `sqrt()`)
 
