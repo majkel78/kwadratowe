@@ -21,3 +21,5 @@ double pobierz(char* tekst)
 ```sh
 $ gcc kwadratowe.c -o kwadratowe.out -lm
 ```
+
+##### 5. Przy podawaniu części dziesiętnych dla wartości a,b,c wymagane jest ich oddzielenie kropką a nie przecinkiem (np. 4.87 jest dobrze, 4,78 jest źle)
