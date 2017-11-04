@@ -1,6 +1,6 @@
 # Program do obliczania pierwiastków równania kwadratowego
 
-##### 1. Program za pomocą funkcji scanf() pobiera z konsoli wartości a,b,c
+1. Program za pomocą funkcji scanf() pobiera z konsoli wartości a,b,c
 
 ```c
 double pobierz(char* tekst)
