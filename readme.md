@@ -19,5 +19,5 @@ double pobierz(char* tekst)
 ##### 4. Kompilacja programu wymaga "linkowania" biblioteki matematycznej (-lm) (użycie w programie funkcji obliczania pierwiastka kwadratowego - sqrt)
 
 ```sh
-gcc kwadratowe.c -o kwadratowe.out -lm
+$ gcc kwadratowe.c -o kwadratowe.out -lm
 ```
